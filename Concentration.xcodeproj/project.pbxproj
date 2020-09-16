@@ -56,15 +56,23 @@
 		D0B15922251270D400594A3F /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				D0B15923251270D400594A3F /* AppDelegate.swift */,
-				D0B15925251270D400594A3F /* SceneDelegate.swift */,
 				D0B15927251270D400594A3F /* ViewController.swift */,
 				D0B15929251270D400594A3F /* Main.storyboard */,
-				D0B1592C251270D500594A3F /* Assets.xcassets */,
-				D0B1592E251270D500594A3F /* LaunchScreen.storyboard */,
+				D0B15923251270D400594A3F /* AppDelegate.swift */,
+				D0B159372512711700594A3F /* Supporting files */,
 				D0B15931251270D500594A3F /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		D0B159372512711700594A3F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B15925251270D400594A3F /* SceneDelegate.swift */,
+				D0B1592C251270D500594A3F /* Assets.xcassets */,
+				D0B1592E251270D500594A3F /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.mark.www.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.mark.www.Concentration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
